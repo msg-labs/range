@@ -1,0 +1,24 @@
+{
+  "name": "range",
+  "version": "1.0.0",
+  "description": "Python like range function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msg-labs/range.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Miguel Sanchez Gonzalez",
+    "email": "miguelsanychez@gmail.com",
+    "url": "https://miguelsanchezgonzalez.com"
+  },
+  "license": "WTFPL2",
+  "bugs": {
+    "url": "https://github.com/msg-labs/range/issues"
+  },
+  "homepage": "https://github.com/msg-labs/range#readme"
+}
