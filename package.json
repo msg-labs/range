@@ -4,8 +4,9 @@
     "description": "Python like range function",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "lint": "clear && eslint --fix **/*.js *.js"
+        "test": "jest",
+        "dev:test": "npm run test -- --watch",
+        "lint": "clear && eslint **/*.js *.js"
     },
     "repository": {
         "type": "git",
@@ -25,7 +26,9 @@
     "devDependencies": {
         "@msg-labs/eslint-config": "1.2.1",
         "eslint": "6.7.2",
+        "eslint-plugin-jest": "23.1.1",
         "husky": "3.1.0",
+        "jest": "24.9.0",
         "lint-staged": "9.5.0",
         "standard-version": "7.0.1"
     },
